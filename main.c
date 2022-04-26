@@ -6,8 +6,8 @@
 
 int main (void) {
 
-    portScan(RNGSCAN);
+    tcpPortScan(TGTSCAN);
 
 
-    return 0;
+    exit(EXIT_SUCCESS);
 }
