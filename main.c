@@ -1,4 +1,4 @@
-#include "PortScanner.h"
+#include "NetTools.h"
 
 //RNGSCAN flag allows user to specify a range of ports to search
 //TGTSCAN flag allows user to knowingly target a specific port to attempt a connection
@@ -6,8 +6,8 @@
 
 int main (void) {
 
-    tcpPortScan(TGTSCAN);
-
+    //tcpPortScan(TGTSCAN);
+    getLocalAddress();
 
     exit(EXIT_SUCCESS);
 }
